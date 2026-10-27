@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fhalqi Modal Cerdas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2>Fhalqi<span>Modal Cerdas</span></h2>
+    <div class="avatar">FM</div>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <p>Selamat datang kembali,</p>
+      <h1>Raka Pratama 👋</h1>
+      <small>ID Pengguna: FMC-729184</small>
+    </section>
+
+    <section class="balance">
+      <p>Total Modal Simulasi</p>
+      <h1 id="saldo">Rp 5.000.000</h1>
+      <small>+8,5% · Pertumbuhan simulasi</small>
+      <button onclick="toggleSaldo()">Tampilkan / Sembunyikan</button>
+    </section>
+
+    <section class="stats">
+      <div class="card">
+        <p>Keuntungan</p>
+        <h3>+Rp 425.000</h3>
+      </div>
+      <div class="card">
+        <p>Portofolio</p>
+        <h3>3 Aset</h3>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h3>Ringkasan Investasi</h3>
+      <div class="chart">
+        <div style="height:35%"></div>
+        <div style="height:48%"></div>
+        <div style="height:42%"></div>
+        <div style="height:65%"></div>
+        <div style="height:55%"></div>
+        <div style="height:80%"></div>
+        <div style="height:95%"></div>
+      </div>
+      <div class="months">
+        <span>Sen</span><span>Sel</span><span>Rab</span>
+        <span>Kam</span><span>Jum</span><span>Sab</span><span>Min</span>
+      </div>
+      <small>Data grafik merupakan contoh fiktif.</small>
+    </section>
+
+    <section class="panel">
+      <h3>Menu Cepat</h3>
+      <div class="actions">
+        <button onclick="simulasi()">＋ Simulasi Modal</button>
+        <button onclick="info()">ⓘ Informasi</button>
+      </div>
+      <p id="pesan"></p>
+    </section>
+
+    <section class="panel">
+      <h3>Aktivitas Terbaru</h3>
+      <div class="transaction">
+        <div><b>Simulasi Investasi</b><p>28 Okt 2026</p></div>
+        <strong>+Rp 250.000</strong>
+      </div>
+      <div class="transaction">
+        <div><b>Alokasi Dana</b><p>26 Okt 2026</p></div>
+        <strong>-Rp 100.000</strong>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Fhalqi Modal Cerdas<br>
+      <small>Platform demonstrasi • Bukan layanan keuangan resmi</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
